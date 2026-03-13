@@ -22,28 +22,13 @@ The dataset contains information related to:<br>
 •	Claim details<br>
 •	Customer feedback and ratings<br>
 
-Column	Description<br>
-PolicyNumber	Unique policy identifier<br>
-CustomerID	Unique customer identifier<br>
-ClaimNumber	Claim ID for policy<br>
-Age	Customer age<br>
-Gender	Male / Female<br>
-CoverageAmount	Total insurance coverage amount<br>
-PremiumAmount	Amount paid as premium<br>
-PolicyStartDate	Policy start date<br>
-PolicyEndDate	Policy end date<br>
-PolicyType	Auto, Health, Travel, Life, Home<br>
-ClaimStatus	Pending, Settled, Rejected<br>
-ClaimDate	Date claim was raised<br>
-ClaimAmount	Amount requested in claim<br>
-
 Main Columns<br>
 
 Column	Description<br>
-PolicyNumber : Unique policy identifier<br>
-CustomerID :- Unique customer identifier<br>
+PolicyNumber - Unique policy identifier<br>
+CustomerID - Unique customer identifier<br>
 ClaimNumber - Claim ID for policy<br>
-Age - 	Customer age<br>
+Age - Customer age<br>
 Gender - Male / Female<br>
 CoverageAmount - Total insurance coverage amount<br>
 PremiumAmount - Amount paid as premium<br>
@@ -56,76 +41,79 @@ ClaimAmount - Amount requested in claim
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-📊 Dashboard Pages
+📊 Dashboard Pages<br>
 
-1️⃣ Overview Dashboard
-Provides a high-level summary of insurance operations.
-Key Metrics
-    •	Total Premium Amount: 5.98M
-    •	Total Coverage Amount: 600.55M
-    •	Total Claim Amount: 16.91M
-Visualizations
-    •	Premium Amount by Policy Type
-    •	Active vs Inactive Policies
-    •	Number of Claims by Status
-    •	Claim Amount by Age Group
-    •	Policy Type vs Claim Status Matrix
-    •	Gender Distribution
-Key Insights
-    •	Travel insurance contributes the highest premium revenue
-    •	Most claims fall into Rejected and Settled categories
-    •	Adults contribute the highest claim amount
+1️⃣ Overview Dashboard<br>
+Provides a high-level summary of insurance operations.<br>
+Key Metrics<br>
+    •	Total Premium Amount: 5.98M<br>
+    •	Total Coverage Amount: 600.55M<br>
+    •	Total Claim Amount: 16.91M<br>
+    
+Visualizations<br>
+    •	Premium Amount by Policy Type<br>
+    •	Active vs Inactive Policies<br>
+    •	Number of Claims by Status<br>
+    •	Claim Amount by Age Group<br>
+    •	Policy Type vs Claim Status Matrix<br>
+    •	Gender Distribution<br>
+    
+Key Insights<br>
+    •	Travel insurance contributes the highest premium revenue<br>
+    •	Most claims fall into Rejected and Settled categories<br>
+    •	Adults contribute the highest claim amount<br>
     •	Gender distribution is almost equal between Male and Female customers
 ________________________________________________________________________________________________________________________________________________________________
-2️⃣ User Data Page
-Displays the complete customer and policy-level dataset.
-Features:
-    •	Searchable data table
-    •	Policy filtering
-    •	Customer filtering
-    •	Claim number filtering
+2️⃣ User Data Page<br>
+Displays the complete customer and policy-level dataset.<br>
+Features:<br>
+    •	Searchable data table<br>
+    •	Policy filtering<br>
+    •	Customer filtering<br>
+    •	Claim number filtering<br>
 This helps users drill into individual policy records.
 ________________________________________________________________________________________________________________________________________________________________
-3️⃣ Customer Ratings & Feedback
-Analyzes customer satisfaction using sentiment-based rating scores (1–10) derived from customer feedback.
-Visualizations
-  •	Customer rating distribution (donut chart)
-  •	Feedback table with rating
-  •	Rating filter slider
-  •	Customer feedback score trend
-Insights
-  •	Majority of customers provided ratings between 8–10
-  •	Negative feedback mainly relates to:
-      o	Claim delays
-      o	High premiums
-      o	Customer service response time
-  •	Positive feedback highlights:
-      o	Good coverage options
-      o	Helpful staff
+3️⃣ Customer Ratings & Feedback<br>
+Analyzes customer satisfaction using sentiment-based rating scores (1–10) derived from customer feedback.<br>
+Visualizations<br>
+  •	Customer rating distribution (donut chart)<br>
+  •	Feedback table with rating<br>
+  •	Rating filter slider<br>
+  •	Customer feedback score trend<br>
+  
+Insights<br>
+  •	Majority of customers provided ratings between 8–10<br>
+  •	Negative feedback mainly relates to:<br>
+      o	Claim delays<br>
+      o	High premiums<br>
+      o	Customer service response time<br>
+  •	Positive feedback highlights:<br>
+      o	Good coverage options<br>
+      o	Helpful staff<br>
       o	Easy claim settlement
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🛠 Tools & Technologies Used
-  • Power BI Desktop
-  • Excel / CSV Dataset
-  • Data Modeling
-  • DAX Measures
+🛠 Tools & Technologies Used<br>
+  • Power BI Desktop<br>
+  • Excel / CSV Dataset<br>
+  • Data Modeling<br>
+  • DAX Measures<br>
   • Data Cleaning & Transformation
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-📈 Business Insights Generated
-Revenue Insights
-   •	Travel policies generate the highest premium revenue.
-   • Claim Insights
-   •	Significant portion of claims are rejected, indicating strict claim validation.
-   • Customer Demographics
-   •	Adults represent the largest group contributing to claims.
-   • Customer Experience
+📈 Business Insights Generated<br>
+Revenue Insights<br>
+   •	Travel policies generate the highest premium revenue.<br>
+   • Claim Insights<br>
+   •	Significant portion of claims are rejected, indicating strict claim validation.<br>
+   • Customer Demographics<br>
+   •	Adults represent the largest group contributing to claims.<br>
+   • Customer Experience<br>
 
-Overall customer satisfaction is positive, but improvements can be made in:
-   • Claim processing time
+Overall customer satisfaction is positive, but improvements can be made in:<br>
+   • Claim processing time<br>
    • Customer service responsiveness
 
