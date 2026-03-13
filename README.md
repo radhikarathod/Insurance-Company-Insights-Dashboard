@@ -117,3 +117,5 @@ Overall customer satisfaction is positive, but improvements can be made in:<br>
    • Claim processing time<br>
    • Customer service responsiveness
 
+Dashboard link : https://github.com/radhikarathod/Insurance-Company-Insights-Dashboard/blob/main/Overview_Page1.png
+
